@@ -14,6 +14,7 @@
 		263B72122996996A00BB0976 /* Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B72112996996A00BB0976 /* Za_HunterTests.swift */; };
 		263B721C2996996A00BB0976 /* Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B721B2996996A00BB0976 /* Za_HunterUITests.swift */; };
 		263B721E2996996A00BB0976 /* Za_HunterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B721D2996996A00BB0976 /* Za_HunterUITestsLaunchTests.swift */; };
+		263B722B29969A9900BB0976 /* Location Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263B722A29969A9900BB0976 /* Location Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		263B72172996996A00BB0976 /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		263B721B2996996A00BB0976 /* Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITests.swift; sourceTree = "<group>"; };
 		263B721D2996996A00BB0976 /* Za_HunterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		263B722A29969A9900BB0976 /* Location Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				263B72002996996700BB0976 /* Za_HunterApp.swift */,
 				263B72022996996700BB0976 /* ContentView.swift */,
+				263B722A29969A9900BB0976 /* Location Manager.swift */,
 				263B72042996996900BB0976 /* Assets.xcassets */,
 				263B72062996996900BB0976 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				263B72032996996700BB0976 /* ContentView.swift in Sources */,
+				263B722B29969A9900BB0976 /* Location Manager.swift in Sources */,
 				263B72012996996700BB0976 /* Za_HunterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
